@@ -96,6 +96,17 @@ p{
    background-size: contain;
 }
 
+.card_1_img{
+    width: 50%;
+    height: 850px;
+    background-size: contain;
+}
+
+.carb_1_text{
+    width: 50%;
+    height: 850px;
+    background-size: contain;
+}
 .card{
     display: flex;
     flex-direction: column;
