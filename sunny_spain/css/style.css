@@ -97,12 +97,16 @@ p{
 }
 
 .card_1_img{
+    display: flex;
+    flex-direction: column;
     width: 50%;
     height: 850px;
     background-size: contain;
 }
 
 .carb_1_text{
+    display: flex;
+    flex-wrap: wrap;
     width: 50%;
     height: 850px;
     background-size: contain;
