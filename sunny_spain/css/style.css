@@ -1,11 +1,12 @@
 *{
-
+    margin: 0px;;
 }
 
 header{
     display: flex;
     align-items: center;
     width: 100%;
+    height: 190px;
     background-color: rgba(238, 190, 101, 0.979);
 }
 
@@ -19,14 +20,14 @@ header a{
     background-repeat: no-repeat;
     background-size: contain;
     background-position-y: center;
-    height: 300px;
+    height: 90%;
     width: 20%;
-    margin:2em 10em 2em 2em;
+    margin: 2em 10em 2em 2em;;
 }
 
 nav{
     width: 50%;
-    height: 300px;
+    height: 100%;
     display: flex;
     background-position-y: center;
     justify-content: space-around;
@@ -36,7 +37,7 @@ nav{
 nav a{
     color:rgb(56, 41, 19);
     text-decoration: none;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .text{
@@ -49,111 +50,137 @@ h1{
    font-family: 'Philosopher', sans-serif;
    font-weight: bolder;
    font-stretch: ultra-expanded;
-   font-size: 100px;
+   font-size: 50px;
 }
 
 h3{
     justify-content: center;
-    width: 75%;
-    height: 50px;
     margin-left: 2em;
     font-family: 'Philosopher', sans-serif;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 30px;
     color: black;
-    
 }
+
 p{
     align-self: center;
-    width: 75%;
     margin-left: 2em;
     margin-right: 2em;
     font-family: 'Philosopher', sans-serif;
     color: black;
+    text-indent: 25px;
 }
-.flex_wrapper{
+
+a {
+    text-decoration: solid;
+}
+
+
+article {
     width: 100%;
-    margin: 0 auto;
+    margin: 1em 0em;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: white;
 }
 
-.card_1{
+.card_index_main{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     width: 100%;
-    height: 850px;
-    margin: 0em 0em 0em;
+    margin: 1em 0em 0em;
     padding: 1em;
     background-color: rgb(238, 238, 231);
-    font-size: 40px;
+    font-size: 20px;
 }
 
-.card_1 img{
-   background-size: contain;
+.card_index_main img{
+   width: 400px;
 }
 
-.card_1_img{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 850px;
-    background-size: contain;
-}
 
-.carb_1_text{
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    height: 850px;
-    background-size: contain;
-}
 .card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 850px;
-    height: 1200px; 
+    justify-content: flex-start;
+    width: 40%; 
     margin-top: 3em;
-    padding-top: 2em;
-    padding-left: 3em;
+    padding: 2em 1em;
     box-shadow: 4px -4px 4px 5px rgb(156, 159, 163);
     background-color:rgb(238, 238, 231);;
-    font-size: 28px;
+    font-size: 16px;
 }
 
-.card_2{
+
+.card img{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.card_blog{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     width: 100%;
-    height: 850px;
     margin: 0em 0em 0em;
     padding: 1em;
     background-color: rgb(238, 238, 231);
-    font-size: 40px;
+    font-size: 20px;
 }
 
-.card_3{
+.card_blog img {
+    width: 50%;  
+}
+
+.card_blog p {
+    text-indent: 25px;
+    width: 50%;
+}
+
+
+.card_nature{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     width: 100%;
-    height: 1200px;
     margin: 0em 0em 0em;
     padding: 1em;
     background-color: rgb(238, 238, 231);
-    font-size: 40px;  
+    font-size: 20px;  
 }
 
-
-.card_image{
-    margin-left: 5em;
+.card_nature img {
+    width: 50%;  
 }
+
+.card_nature p {
+    width: 50%;
+}
+
+.card_spain a {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 1em;
+    background-color: rgb(238, 238, 231);
+    font-size: 20px;  
+}
+
+.card_spain div {
+    margin: 1px;
+    width: 50%;  
+}
+
+.card_spain img {
+    margin: 1px;
+    width: 100%;  
+}
+
+.card_spain p {
+    width: 50%;
+}
+
 div{
     justify-content: center;
     align-items: center;
@@ -161,13 +188,13 @@ div{
 
 footer{
     display: flex;
-    align-items:flex-end;
+    align-items: center;
     justify-content: center;
     background-color: rgba(159, 200, 219, 0.979);
     margin-top: 3em;
     width: 100%;
-    height: 300px;
-    font-size: 30px;
+    height: 150px;
+    font-size: 15px;
 }
 
 .footer_text {
