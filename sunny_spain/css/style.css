@@ -20,10 +20,7 @@ header a{
     background-position-y: center;
     height: 300px;
     width: 20%;
-    margin-right: 10em;
-    margin-left: 2em;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin:2em 10em 2em 2em;
 }
 
 nav{
@@ -92,6 +89,7 @@ p{
     margin: 0em 0em 0em;
     padding: 1em;
     background-color: rgb(238, 238, 231);
+    background-size: cover;
     font-size: 40px;
 }
 
