@@ -1,0 +1,128 @@
+.plan{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3,330px);
+    justify-content: center;
+    font-family: var(--default__font);
+    margin: 60px 174px 70px 174px;
+}
+
+.plan_cards{
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 760px;
+
+}
+
+.plan_cards:hover{
+    border: 2px solid var(--red__new);
+}
+
+.plan_cards__img{
+    width: 144px;
+    height: 165px;
+    margin: 79px 92px 30px 92px;
+}
+
+.plan_cards__img_first{
+    background-image: url('../img/Free.svg');
+}
+
+.plan_cards__img_second{
+    background-image: url('../img/Standard.svg');
+}
+
+.plan_cards__img_third{
+    background-image: url('../img/Premium.svg');
+}
+
+.plan_cards__img_ok{
+    background-image: url('../icons/ok.svg');
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-top: 13px;
+    margin-left: 69px;
+}
+
+.plan_cards__h4{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 126px;
+    height: 30px;
+    margin: 0 102px 30px 102px;
+    color: var(--blak__new);
+    text-align: center;
+}
+
+.plan_cards__content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 240px;
+    /* margin-top: 10px; */
+}
+
+.plan_cards__card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* margin-top: 30px; */
+}
+
+.plan_cards__p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--gray__new);
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 150px;
+}
+
+.plan_cards__price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 186px;
+}
+
+.plan_cards__price_p{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--gray__new);
+}
+
+.plan_cards__price_p span{
+    color: var(--blak__new);
+    font-weight: 500;
+}
+
+.plan_cards__btn{
+    color: var(--red__new);
+    font-size: 16px;
+    width: 177px;
+    height: 45px;
+    font-family: inherit;
+    background-color: var(--white__new);
+    border: 2px solid var(--red__new);  
+    /* padding: 16px 30px; */
+    position: relative;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: all 1s;
+}
+
+.plan_cards__btn:hover{
+    cursor: pointer;
+    background-color: var(--red__new);
+    color:  var(--white__new);
+}
