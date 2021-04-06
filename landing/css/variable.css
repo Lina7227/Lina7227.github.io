@@ -1,15 +1,15 @@
-:root{
-    --red__new: #F53838;
-    --bord__new: #F53855;
-    --blak__new: #0B132A;
-    --gray__new: #4F5665;
-    --bej__new: #F8F8F8;
-    --sv__new: #DDE0E4;
-    --white__new: #FFFFFF;
-    --default__font: 'Rubik', 'Verdana', sans-serif;
+:root {
+  --red__new: #f53838;
+  --bord__new: #f53855;
+  --blak__new: #0b132a;
+  --gray__new: #4f5665;
+  --bej__new: #f8f8f8;
+  --sv__new: #dde0e4;
+  --white__new: #ffffff;
+  --default__font: "Rubik", "Verdana", sans-serif;
 }
 
-.wrapper{
-    /* margin: ; */
-    max-width: 1440px;
+.wrapper {
+  margin: 0 auto;
+  /* max-width: 1440px; */
 }
