@@ -1,4 +1,4 @@
-.main_heading{
+.main_heading {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,7 +6,7 @@
     margin-top: 80px;
 }
 
-.main_heading__h3{
+.main_heading__h3 {
     font-family: var(--default__font);
     font-size: 35px;
     font-weight: 500;
@@ -16,7 +16,7 @@
     margin-bottom: 20px;
 }
 
-.main_heading__h5{
+.main_heading__h5 {
     font-family: var(--default__font);
     font-size: 16px;
     font-weight: 400;

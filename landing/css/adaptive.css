@@ -1,0 +1,335 @@
+@media all and (max-width: 420px){
+
+    .wrapper{
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header{
+        width: 96%;
+        height: 80px;
+        margin: 3px 6px 0 6px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .logo{
+       height: 32px;
+       width: 140px;
+       margin-left: 10px;
+    }
+
+    .burger{
+        display: flex;
+        flex-direction: column;
+        width: 30px;
+        height: 22px;
+        justify-content: space-between;
+        margin-right: 23px;
+        cursor: pointer;
+    }
+
+    .burger div{
+        height: 4px;
+        width: 100%;
+        background-color: var( --blak__new);
+    }
+
+    .nav_mobile{
+        flex-direction: column;
+        height: 10em;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .nav_mobile a{
+        margin-top: 20px;
+    }
+
+    .nav_header__btn{
+       display: none;
+    }
+
+    .promo{
+        width: 96%;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        margin: 0;
+        border-style: cover;
+        background-size: 400px 380px;
+    }
+
+    .promo_wrapper{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .promo_wrapper__title{
+        margin-top: 350px;
+        margin-left: 8px;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: left;
+    }
+
+    .promo_wrapper__text{
+        margin-top: 7px;
+        margin-left: 8px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: left;
+    }
+
+    .mini_promo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 96%;
+        height: 200px;
+        margin: 180px 6px 0 6px;
+    }
+
+    .cards_wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        margin: 0 20px 0 20px;
+
+    }
+
+    .cards_img{
+        background-position: center;
+        width: 55px;
+    }
+
+    .cards_wrap__h5{
+        width: 100px;
+    }
+
+    .cards_wrap__p{
+        width: 90px;
+    }
+
+    .promo_second{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 96%;
+        height: 500px;
+        background-size: 400px 380px;
+        margin: 20px 0 200px 0;
+    }
+
+    .promo_wrapper_second{
+        width: 100%;
+        height: 500px;
+        margin: 20px 8px 0 8px;
+    }
+
+    .promo_wrapper_second__title{
+        font-size: 28px;
+        line-height: 35px;
+        text-align: left;
+        margin: 360px 8px 2px 8px;
+    }
+
+    .promo_wrapper_second__text{
+        margin: 8px 8px 8px 8px;
+        line-height: 25px;
+        text-align: left;
+    }
+
+    .card_promo{
+        width: 250px;
+    }
+
+    .main_heading{
+        height: 130px;
+        width: 96%;
+        margin-top: 20px;
+    }
+
+    .main_heading__h3{
+        font-size: 23px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+
+    .main_heading__h5{
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .plan{
+        width: 96%;
+        margin: 20px 0 10px 0;
+        grid-template-columns: 1fr;
+    }
+
+    .plan_cards{
+        height: 400px;
+        width: 330px;
+        justify-content: center;
+        margin: 0 35px 0 35px;
+    }
+
+    .plan_cards__img{
+        width: 144px;
+        height: 165px;
+        margin: 15px 92px 15px 92px;
+    }
+
+    .plan_cards__h4{
+        margin-top: 15px;
+    }
+
+    .plan_cards__content{
+        display: none;
+    }
+
+    .plan_cards__card{
+        display: none;
+    }
+
+    .plan_cards__price{
+        height: 100px;
+    }
+
+    .plan_cards__price_p{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .main_map{
+        width: 96%;
+        margin-top: 20px;
+    }
+
+    .main_map__img_1{
+        display: none;
+    }
+
+    .main_map__view{
+        grid-template-columns: 1fr;
+        height: 400px;
+        width: 96%;
+        margin: 20px 25px 20px 25px;
+    }
+
+    .main_map__img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .carousel{
+        height: 280px;
+    }
+
+    .carousel_scrollbar{
+        display: none;
+        height: 10px;
+    }
+
+    .mini_promo_second{
+        height: 230px;
+        margin: 6px 6px 10px 6px;
+        width: 96%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mini_promo_second__title{
+        width: 96%;
+        height: 116px;
+        margin-top: 2px;
+        margin-left: 6px;
+    }
+
+    .mini_promo_second__title_1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .mini_promo_second__btn{
+        font-size: 16px;
+        width: 212px;
+        height: 60px;
+    }
+
+    .mini_promo_second__button{
+        display: flex;
+        justify-content: center;
+        margin: 10px 70px 86px 192px;
+        background-position: center;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 480px;
+        width: 96%;
+        margin-top: 10px;
+    }
+
+    .footer_business{
+        width: 450px;
+        margin-left: 20px;
+    }
+
+    .footer_business__logo{
+        background-position: 50%;
+        margin: 6px 0 6px 40px;
+    }
+
+    .footer_business__h5{
+        font-size: 16px;
+        margin-left: 40px;
+    }
+
+    .footer_business__social{
+        margin: 4px 0 6px 115px;
+    }
+
+    .footer_business__p{
+        font-size: 16px;
+        margin: 6px 0 6px 125px;
+    }
+
+    .footer_bloks{
+        width: 100%;
+    }
+
+    .nav_blok{
+        margin: 6px 8px 0 8px;
+        height: 220px;
+        width: 120px;
+    }
+
+    .nav_h4{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 6px;
+        text-align: left;
+    }
+
+    .nav__Link{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 6px;
+    }
+
+}

@@ -1,4 +1,4 @@
-.plan{
+.plan {
     display: grid;
     gap: 50px;
     grid-template-columns: repeat(3,330px);
@@ -7,8 +7,8 @@
     margin: 60px 174px 70px 174px;
 }
 
-.plan_cards{
-    border: 2px solid #DDDDDD;
+.plan_cards {
+    border: 2px solid #dddddd;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -16,30 +16,30 @@
 
 }
 
-.plan_cards:hover{
+.plan_cards:hover {
     border: 2px solid var(--red__new);
 }
 
-.plan_cards__img{
+.plan_cards__img {
     width: 144px;
     height: 165px;
     margin: 79px 92px 30px 92px;
 }
 
-.plan_cards__img_first{
-    background-image: url('../img/Free.svg');
+.plan_cards__img_first {
+    background-image: url("../img/Free.svg");
 }
 
-.plan_cards__img_second{
-    background-image: url('../img/Standard.svg');
+.plan_cards__img_second {
+    background-image: url("../img/Standard.svg");
 }
 
-.plan_cards__img_third{
-    background-image: url('../img/Premium.svg');
+.plan_cards__img_third {
+    background-image: url("../img/Premium.svg");
 }
 
-.plan_cards__img_ok{
-    background-image: url('../icons/ok.svg');
+.plan_cards__img_ok {
+    background-image: url("../icons/ok.svg");
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -47,7 +47,7 @@
     margin-left: 69px;
 }
 
-.plan_cards__h4{
+.plan_cards__h4 {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
@@ -58,7 +58,7 @@
     text-align: center;
 }
 
-.plan_cards__content{
+.plan_cards__content {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -67,14 +67,14 @@
     /* margin-top: 10px; */
 }
 
-.plan_cards__card{
+.plan_cards__card {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     /* margin-top: 30px; */
 }
 
-.plan_cards__p{
+.plan_cards__p {
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
@@ -84,7 +84,7 @@
     width: 150px;
 }
 
-.plan_cards__price{
+.plan_cards__price {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,7 +92,7 @@
     height: 186px;
 }
 
-.plan_cards__price_p{
+.plan_cards__price_p {
     font-size: 25px;
     margin-bottom: 20px;
     font-weight: 400;
@@ -100,17 +100,17 @@
     color: var(--gray__new);
 }
 
-.plan_cards__price_p span{
+.plan_cards__price_p span {
     color: var(--blak__new);
     font-weight: 500;
 }
 
-.plan_cards__btn{
+.plan_cards__btn {
     color: var(--red__new);
     font-size: 16px;
     width: 177px;
     height: 45px;
-    font-family: inherit;
+    font-family: var(--default__font);
     background-color: var(--white__new);
     border: 2px solid var(--red__new);  
     /* padding: 16px 30px; */
@@ -121,7 +121,7 @@
     transition: all 1s;
 }
 
-.plan_cards__btn:hover{
+.plan_cards__btn:hover {
     cursor: pointer;
     background-color: var(--red__new);
     color:  var(--white__new);

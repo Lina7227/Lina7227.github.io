@@ -1,15 +1,16 @@
-.mini_promo{
+.mini_promo {
     height: 200px;
     /* width: 1140px; */
     margin: 103px 150px 0 150px;
     display: flex;
     flex-wrap: nowrap;
     /* background-color: blueviolet; */
+    justify-content: center;
     box-shadow: inset 0 -20px 20px  var(--sv__new);
     
 }
 
-.cards_wrap{
+.cards_wrap {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,26 +19,26 @@
 
 }
 
-.cards_img{
+.cards_img {
     height: 55px;
     width: 55px;
     margin-right: 35px;
 
 }
 
-.card_img__users{
-    background-image: url('../icons/users.svg');
+.card_img__users {
+    background-image: url("../icons/users.svg");
 }
 
-.card_img__locations{
-    background-image: url('../icons/locations.svg');
+.card_img__locations {
+    background-image: url("../icons/locations.svg");
 }
 
-.card_img__servers{
-    background-image: url('../icons/Servers.svg');
+.card_img__servers {
+    background-image: url("../icons/Servers.svg");
 }
 
-.cards_wrap__h5{
+.cards_wrap__h5 {
     font-family: var(--default__font);
     font-size: 25px;
     font-weight: 700;
@@ -46,7 +47,7 @@
     color: var(--blak__new);
 }
 
-.cards_wrap__p{
+.cards_wrap__p {
     font-family: var(--default__font);
     font-weight: 400;
     font-size: 20px;

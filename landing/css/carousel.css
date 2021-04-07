@@ -1,4 +1,4 @@
-.carousel{
+.carousel {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -6,7 +6,7 @@
     height: 350px;
 }
 
-.carousel_items{
+.carousel_items {
     display: grid;
     grid-template-columns: repeat(3,400px);
     overflow-x: scroll;
@@ -15,55 +15,55 @@
     overflow-y:hidden;
 }
 
-.carousel_items__card{
+.carousel_items__card {
     display: flex;
     flex-direction: column;
-    border: 2px solid #DDDDDD;
+    border: 2px solid #dddddd;
     border-radius: 10px;
     cursor: pointer;
     height: 230px;
 }
 
-.carousel_items__card:hover{
+.carousel_items__card:hover {
     border: 2px solid var(--red__new);
 }
 
-.carousel_items__card_title{
+.carousel_items__card_title {
     display: flex;
     flex-direction: row;
 }
 
 
-.carousel_items__card_username{
+.carousel_items__card_username {
     display: flex;
     flex-direction: column;
     margin: 36px 0 14px 20px;
     font-family: var(--default__font);
 }
 
-.carousel_items__card_userh4{
+.carousel_items__card_userh4 {
     font-size: 15px;
     font-weight: 500;
     color: var( --blak__new);
     line-height: 30px;
 }
 
-.carousel_items__card_userh5{
+.carousel_items__card_userh5 {
     font-size: 14px;
     font-weight: 400;
     color: var(--gray__new);
     line-height: 30px;
 }
 
-.carousel_items__card_userrating{
-    background-image: url('../icons/five.svg');
+.carousel_items__card_userrating {
+    background-image: url("../icons/five.svg");
     width: 50px;
     height: 16px;
     margin-top: 46px;
     margin-left: 90px;
 }
 
-.carousel_items__card_p{
+.carousel_items__card_p {
     font-family: var(--default__font);
     font-size: 16px;
     font-weight: 400;
@@ -80,20 +80,20 @@
     margin-left: 30px;
 }
 
-.carousel_items__card_userimg_1{
-    background-image: url('../icons/foto_1.svg');
+.carousel_items__card_userimg_1 {
+    background-image: url("../icons/foto_1.svg");
 }
 
-.carousel_items__card_userimg_2{
-    background-image: url('../icons/foto_2.svg');
+.carousel_items__card_userimg_2 {
+    background-image: url("../icons/foto_2.svg");
 
 }
 
-.carousel_items__card_userimg_3{
-    background-image: url('../icons/foto_3.svg');
+.carousel_items__card_userimg_3 {
+    background-image: url("../icons/foto_3.svg");
 }
 
-.carousel_scrollbar{
+.carousel_scrollbar {
     display: flex;
     margin-top: 60px;
     justify-content: right;
@@ -104,7 +104,7 @@
 
 } */
 
-.carousel_scrollbar__buttons{
+.carousel_scrollbar__buttons {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap-reverse;
@@ -112,31 +112,31 @@
     cursor: pointer;
 }
 
-.carousel_scrollbar__button{
+.carousel_scrollbar__button {
     width: 60px;
     height: 60px;
 }
 
-.button_left{
-    background-image: url('../img/left_nonact.png');
+.button_left {
+    background-image: url("../img/left_nonact.png");
 }
 
-.button_left:hover{
-    background-image: url('../img/left_act.png');
+.button_left:hover {
+    background-image: url("../img/left_act.png");
 }
 
-.button_left:focus{
-    background-image: url('../img/left_act.png');
+.button_left:focus {
+    background-image: url("../img/left_act.png");
 }
 
-.button_right{
-    background-image: url('../img/right_nonact.png');
+.button_right {
+    background-image: url("../img/right_nonact.png");
 }
 
-.button_right:hover{
-    background-image: url('../img/right_act.png');
+.button_right:hover {
+    background-image: url("../img/right_act.png");
 }
 
-.button_right:focus{
-    background-image: url('../img/right_act.png');
+.button_right:focus {
+    background-image: url("../img/right_act.png");
 }

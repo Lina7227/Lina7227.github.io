@@ -1,4 +1,4 @@
-.mini_promo_second{
+.mini_promo_second {
     height: 230px;
     margin: 10px 150px 0 150px;
     display: flex;
@@ -7,7 +7,7 @@
     width: 1040px;
 }
 
-.mini_promo_second__title{
+.mini_promo_second__title {
     width: 410px;
     height: 116px;
     margin-top: 58px;
@@ -15,7 +15,7 @@
     font-family: var( --default__font);
 }
 
-.mini_promo_second__title_1{
+.mini_promo_second__title_1 {
     font-size: 35px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -23,7 +23,7 @@
     color: var(--blak__new);
 }
 
-.promo_wrapper_second__text{
+.promo_wrapper_second__text {
     font-size: 16px;
     margin-top: 20px;
     font-weight: 400;
@@ -31,12 +31,12 @@
     color: var(--gray__new);
 }
 
-.mini_promo_second__btn{
+.mini_promo_second__btn {
     color: var(--red__new);
     font-size: 16px;
     width: 212px;
     height: 60px;
-    font-family: inherit;
+    font-family: var(--default__font);
     background-color: var(--white__new);
     border: 1px solid var(--red__new);  
     /* padding: 16px 30px; */
@@ -46,14 +46,14 @@
     transition: all 1s;
 }
 
-.mini_promo_second__button{
+.mini_promo_second__button {
     display: flex;
     justify-content: right;
     margin: 86px 70px 86px 192px;
     background-position: center;
 }
 
-.mini_promo_second__btn:hover{
+.mini_promo_second__btn:hover {
     cursor: pointer;
     background-color: var(--red__new);
     color:  var(--white__new);

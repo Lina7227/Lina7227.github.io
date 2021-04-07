@@ -1,4 +1,4 @@
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,7 +7,7 @@
     height: 454px;
 }
 
-.footer_business{
+.footer_business {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -16,15 +16,15 @@
     margin-left: 150px;
 }
 
-.footer_business__logo{
-    background-image: url('../icons/Logo.svg');
+.footer_business__logo {
+    background-image: url("../icons/Logo.svg");
     background-repeat: no-repeat;
     width: 148px;
     height: 46px;
     margin: 63px 0 20px 0;
 }
 
-.footer_business__h5{
+.footer_business__h5 {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
@@ -32,12 +32,12 @@
     margin-bottom: 20px;
 }
 
-.footer_business__h5 span{
+.footer_business__h5 span {
     font-weight: 500;
     line-height: 30px;
 }
 
-.footer_business__social{
+.footer_business__social {
     display: flex;
     justify-content: space-between;
     align-items:flex-start;
@@ -45,7 +45,7 @@
     margin-bottom: 30px;
 }
 
-.footer_business__social_link{
+.footer_business__social_link {
     width: 33px;
     height: 33px;
     /* background-position: center; */
@@ -53,33 +53,33 @@
     background-repeat: no-repeat;
 }
 
-.face{
-    background-image: url('../icons/Facebook_1.svg');
+.face {
+    background-image: url("../icons/Facebook_1.svg");
 }
 
-.twi{
-    background-image: url('../icons/Twitter_1.svg');
+.twi {
+    background-image: url("../icons/Twitter_1.svg");
 }
 
-.inst{
-    background-image: url('../icons/Instagram_1.svg');
+.inst {
+    background-image: url("../icons/Instagram_1.svg");
 }
 
-.footer_business__p{
+.footer_business__p {
     font-size: 16px;
     font-weight: 500;
     line-height: 30px;
-    color: #AFB5C0;
+    color: #afb5c0;
 }
 
-.footer_bloks{
+.footer_bloks {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 800px;
 }
 
-.nav_blok{
+.nav_blok {
     display: flex;
     justify-content: flex-start;
     /* align-items: center; */
@@ -89,7 +89,7 @@
     height: 235px;
 }
 
-.nav_h4{
+.nav_h4 {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
@@ -98,7 +98,7 @@
     text-align: left;
 }
 
-.nav__Link{
+.nav__Link {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
