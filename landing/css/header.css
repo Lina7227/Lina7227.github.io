@@ -48,6 +48,9 @@
     /* letter-spacing: 0.8px; */
     font-weight: 500;
     transition: all 0.7s;
+    width: 150px;
+    height: 45px;
+    border: 1px solid white;
 }
 
 .nav_header__btn:hover {
